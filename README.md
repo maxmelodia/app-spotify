@@ -8,7 +8,7 @@ API que disponibiliza e **músicas** e **artistas** utilizando a plataforma **Sp
 
 Parte do modelo arquitetural representa a comunicação com a API Spotify. O app-music faz uma requisição ao recurso "musicas" ou "artistas" passando como parâmetro uma descrição, um ID  e um Token de acesso. Caso encontrado os recursos poderão ser inseridos na base de dados do app-music, para futuramente serem adicionados à uma playlist.
 
-A documentação do microsserviço foi documentada pelo Swagger. Visualização através da seguinte URL:
+O microsserviço foi documentado utilizando o Swagger. Visualização através da seguinte URL:
 
 - http://[host]/swagger-ui.html
 
